@@ -1,0 +1,94 @@
+#include <stdio.h>
+#include<conio.h>
+#include<stdlib.h>
+int main()
+{
+    //Q1.A
+    printf("WELCOME TO C PROGRAMMING\n");
+
+//B
+
+  int a;
+  int b;
+  /* printf("Enter the Number\n");
+   printf("First Enter value of A\n");
+   scanf("%d",&a);
+   printf("First Enter value of B\n");
+   scanf("%d",&b);
+   int sum= a+b;
+     printf("Value of A is = %d\n", a);
+      printf("Value of B is = %d\n", b);
+      
+   printf("Sum  of A and B is = %d\n", sum);*/
+   
+   //Q2.A
+    
+   /*printf("Enter the Number\n");
+   printf("First Enter value of A\n");
+   scanf("%d",&a);
+   printf("First Enter value of B\n");
+   scanf("%d",&b);
+   int add= a+b;
+   int sub= a-b;
+   int divi= a/b;
+   int mul= a*b;
+     printf("Value of A is = %d\n", a);
+      printf("Value of B is = %d\n", b);
+      
+   printf("Addition  of A and B is = %d\n", add);
+   printf("Subtraction  of A and B is = %d\n", sub);
+   printf("Division  of A and B is = %d\n", divi);
+   printf("Multiplication  of A and B is = %d\n", mul);*/
+
+// B
+   // float c =(int)12.42345;
+    //printf("%f", c);
+      
+
+
+// File handling in C
+
+ /*FILE *fptr;
+ fptr = fopen("hasaan.txt","w");
+ fprintf(fptr,"I am Hasaan and I studied at UCP.");
+ fclose(fptr);
+ 
+  fptr = fopen("hasaan.txt","a");
+ fprintf(fptr,"My Departnment ic BSCS");
+ fclose(fptr);*/
+ 
+ 
+ //Loops
+ //1
+ /*int s=1;
+ while(s<=10){
+   printf("%d",s);
+   s++;
+ }*/
+ 
+ //2
+ 
+ /*int s=1;
+ do{
+    
+     printf("%d",s*2);
+     s++;
+     
+ }
+ while(s<=10);*/
+ 
+ //3
+ 
+ /*int t1,t2;
+  printf("Enter value of t1\n");
+  scanf("%d",&t1);
+ 
+ for (int i=1; i<=10;i++){
+    printf("%d\n",t1*i); 
+     
+ }*/
+ 
+ //4
+ 
+    return 0;
+}
