@@ -17,7 +17,7 @@ char i;												// global for loop counter
 void get_cmd();								// get command string from the user
 void convert_cmd();						// convert the command string to the required format by execvp()
 void c_shell();								// to start the shell
-void log_handle(int sig);			// signal handler to add log statements
+void log_handle(int sig);			// signal handler to add log state
 
 int main(){
   // tie the handler to the SGNCHLD signal
