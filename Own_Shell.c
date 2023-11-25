@@ -12,7 +12,7 @@
 char cmd[MAX_SIZE_CMD];				// string holder for the command
 char *argv[MAX_SIZE_ARG];			// an array for command and arguments
 pid_t pid;										// global variable for the child process ID
-char i;												// global for loop counter
+char i;												// global for Loop Conunter
 
 void get_cmd();								// get command string from the user
 void convert_cmd();						// convert the command string to the required format by execvp()
